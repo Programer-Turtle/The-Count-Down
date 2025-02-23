@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'LED';
+    src: url('digital-7-font/Digital7Mono-Yz9J4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 60px;
+    color: red;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    transition: opacity 1000ms ease-in-out; 
+    font-family: 'LED';
+}
+
+.center{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 0%
+}
