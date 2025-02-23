@@ -75,3 +75,9 @@ function setText(){
     text.innerText =  GetDaysTil()
 }
 
+function RequestFullScreen(){
+    document.documentElement.requestFullscreen();
+    document.body.removeEventListener("click", RequestFullScreen)
+}
+
+document.body.addEventListener("click", RequestFullScreen)
