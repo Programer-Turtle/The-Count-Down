@@ -3,7 +3,7 @@ let TimeChangeInterval = setInterval(setText, 1)
 let AnimationInterval
 let timeAnimation = 0
 
-let TheDay = new Date(2025, 2, 23, 54, 30);
+let TheDay = new Date(2025, 2, 23, 15, 30);
 console.log(TheDay)
 let text = document.getElementById("CountDownText")
 
